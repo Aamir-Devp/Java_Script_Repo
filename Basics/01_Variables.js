@@ -16,3 +16,4 @@ accountPassword = "3565486"
 accountCity = "Norway"
 console.log(account_ID);
 console.table([accountEmail, accountPassword, accountCity, accountState]);
+

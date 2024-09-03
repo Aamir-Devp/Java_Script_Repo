@@ -16,8 +16,48 @@ let isLoggedIn = false;
 // symbol => unique.
 
 // object
-console.log(typeof "Jexy");
-console.log(typeof null); // called as an object.
-console.log(typeof undefined);
+// console.log(typeof "Jexy");
+// console.log(typeof null); // called as an object.
+// console.log(typeof undefined);
+
+const id = Symbol("1234")
+const anotherid = Symbol("1234")
+// console.log(id === anotherid);
+
+const bigNumber = 907664376587697869n // bigInt
+
+// Non Primitive DataTypes
+// Array, Objects, Functions
+
+const marvels = ["Captain", "Deadpool", "Beetle"];
+let myObj = {
+    name : "Steve",
+    age : 34,
+}
+
+const myFunction = function (){
+    // console.log("Hey there");   
+}
+
+// console.log(typeof myFunction);
+
+let myName = "Antonian"
+
+let myNamewould = myName
+myName = "John"
+// console.log(myName);
+// console.log(myNamewould);
+
+let user1 = {
+    email:"fhgrig@google.com",
+    upi_Id:"user@ybl"
+}
+
+let user2 = user1
+
+user2.email = "john@google.com"
+console.log(user1.email);
+console.log(user2.email);
+
 
 
