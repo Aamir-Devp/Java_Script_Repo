@@ -30,7 +30,7 @@ jsUser.greeting = function(){
 }
 
 jsUser.greeting2 = function(){
-    console.log(`This is what we've been doing, ${this.name}`);
+    console.log(`This is what we've been doing, ${this.age}`);
 }
 
 console.log(jsUser.greeting());
